@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace Year2015.Day01;
 
-public class Day01
+public static class Day01
 {
     private static int Part01(string directions)
     {
@@ -50,7 +50,7 @@ public class Day01
         return -1;
     }
 
-    public static void Main(string[] args)
+    public static void Run()
     {
         string input = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Day01/input.txt"));
         
